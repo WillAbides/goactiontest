@@ -10,3 +10,4 @@ jobs:
           github-token: '${{ secrets.GITHUB_TOKEN }}'
           name: willabides-sayhi
           desc: just another hello world
+          email: nobody
