@@ -20,4 +20,8 @@ if [ "$1" = "--check" ]; then
   exit 0
 fi
 
+make -s bin/goaction
+
 go generate ./...
+
+bin/goaction
