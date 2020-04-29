@@ -24,4 +24,4 @@ make -s bin/goaction
 
 go generate ./...
 
-bin/goaction -path ./main.go
+bin/goaction -path ./main.go -name sayhi -desc "just another hello world"
