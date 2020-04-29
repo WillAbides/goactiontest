@@ -1,4 +1,4 @@
-package goactiontest
+package main
 
 import (
 	"testing"
