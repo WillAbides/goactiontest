@@ -7,6 +7,6 @@ jobs:
       - uses: posener/goaction@v0.0.6
         with:
           path: ./main.go
-          github-token: '${{ github.token }}'
+          github-token: '${{ secrets.GITHUB_TOKEN }}'
           name: willabides-sayhi
           desc: just another hello world
