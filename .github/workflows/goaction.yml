@@ -1,0 +1,12 @@
+on: [push]
+jobs:
+  goaction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: posener/goaction@v0.0.6
+        with:
+          path: ./main.go
+          github-token: '${{ github.token }}'
+          name: willabides-sayhi
+          desc: just another hello world

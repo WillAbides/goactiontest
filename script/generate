@@ -20,8 +20,4 @@ if [ "$1" = "--check" ]; then
   exit 0
 fi
 
-make -s bin/goaction
-
 go generate ./...
-
-bin/goaction -path ./main.go -name sayhi -desc "just another hello world"
